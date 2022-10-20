@@ -5,9 +5,11 @@ basic.forever(function () {
         basic.showString("N")
     } else if (degrés < 135) {
         basic.showString("E")
+    } else if (degrés < 225) {
+        basic.showString("S")
     } else if (degrés < 315) {
         basic.showString("W")
-    } else if (false) {
-    	
+    } else {
+        basic.showString("N")
     }
 })
